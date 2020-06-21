@@ -1,0 +1,230 @@
+/*DUAS REGIÃO POR VEZ*/
+
+@media screen and (max-width: 1000px) {
+    header {
+        position: fixed;
+        box-sizing: border-box;
+        transition: height 0.4s;
+        grid-template-rows: 8.5vh;       
+        grid-template-columns: 50vw 50vw;
+    }
+    .open-menu { /*Classe para abrir o menu*/
+        height: 50vh;
+        grid-template-rows: 8.5vh 41.5;
+    }
+    header #logo {
+        margin-left: 10px;
+    }
+    header #logo:hover {
+        opacity: 1;
+    }
+    header #button-menu { /*Menu hamburguer*/
+        cursor: pointer;
+        display: block;
+        width: 4vw;
+        margin: auto;
+        margin-right: 10px;
+        transition: all 0.4s;
+    }
+    header div {
+        display: block;
+    }
+    header ul {
+        display: none;
+        padding: 0;
+    }
+    .list-menu-open { /*Classe para a lista aparecer*/
+        display: block;
+        margin-left: 10px;
+    }
+    header ul li {
+        text-align: right;
+        width: 40vw;
+        background-color: white;
+        color: #279e72;
+        margin: 4px auto;
+        border-radius: 30px;
+        transition: all 0.3s;
+    }
+    header ul li:hover {
+        padding: 12px;
+    }
+
+    /**/
+
+    section#ap { /*Toda section da apresentação*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;   
+        overflow: hidden;  
+    }
+    #ap img { /*Imagem na apresentação*/
+        margin: 5px auto;
+        width: 20em;
+    }
+
+    /*REGIÕES*/
+
+    .linha { /*Linha dos lugares*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    .quadrado { /*Cada quadrado dos lugares*/
+        width: 45vw;
+        height: 83vh;
+        margin: 20px auto;
+        overflow: auto;
+    }
+}
+
+/*UMA REGIÃO POR VEZ*/
+
+@media screen and (max-width: 800px) { 
+
+    /*HEADER*/
+
+    header {
+        position: fixed;
+        box-sizing: border-box;
+        transition: height 0.4s;
+        grid-template-rows: 8.5vh;
+        grid-template-columns: 50vw 50vw;
+    }
+    .open-menu { /*Classe para abrir o menu*/
+        height: 50vh;
+        grid-template-rows: 8.5vh 41.5;
+    }
+    header #logo {
+        margin-left: 10px;
+    }
+    header #logo:hover {
+        opacity: 1;
+    }
+    header #button-menu { /*Menu hamburguer*/
+        cursor: pointer;
+        display: block;
+        width: 8vw;
+        margin: auto;
+        margin-right: 10px;
+        transition: all 0.4s;
+    }
+    header div {
+        display: block;
+    }
+    header ul {
+        display: none;
+        padding: 0;
+    }
+    .list-menu-open { /*Classe para a lista aparecer*/
+        display: block;
+        margin-left: 10px;
+    }
+    header ul li {
+        text-align: right;
+        width: 40vw;
+        background-color: white;
+        color: #279e72;
+        margin: 4px auto;
+        border-radius: 30px;
+        transition: all 0.3s;
+    }
+    header ul li:hover {
+        padding: 12px;
+    }
+
+    /*APRESENTAÇÃO INICIAL*/
+
+    section#ap {
+        display: grid;
+        grid-template-columns: 1fr;       
+    }
+    #ap img {
+        margin: auto;
+        width: 100%;
+    }
+    #titulo { /*Titulo geral e inicial*/
+        margin-left: 10px;
+    }
+
+    /*EXPLICANDO PROJETO*/
+
+    #explicando { /*Toda a sec*/
+        width: 80vw;
+        height: 100%;
+        margin: 45px auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        overflow: auto;
+    }
+    #explicando h2 {
+        font-size: 2em;
+    }
+    #explicando img {
+        width: 75vw;
+        margin: auto;
+        margin-top: 35px;
+        justify-content: center;
+        align-items: center;
+    }
+    #explicando div#divmaior {
+        margin-top: 12px;
+        margin-bottom: 12px ;
+    }
+    #explicando div#divmenor {
+        width: 73vw;
+        height: 100%;
+    }
+    #explicando div#divmenor h2:hover {
+        opacity: 1;
+    }
+    #explicando div#divmenor p {
+        font-size: 85%;
+        line-height: 20px;
+    }
+
+    /*REGIÕES*/
+
+    .linha {
+        display: block;
+    }
+    .quadrado {
+        width: 80vw;
+        height: 100%;
+        margin: 45px auto;
+    }
+    .quadrado img:hover {
+        width: 12em;
+    }
+    .quadrado p {
+        height: 100%;
+    }
+    section h2 { /*Nomes das regiões*/
+        margin-top: 0px;
+        margin-bottom: 50px;
+        margin-left: 12px;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        height: 40vh;
+        overflow-y: hidden;
+    }
+    footer ul {
+        top: 60vh;
+    }
+    footer img#logofooter:hover {
+        opacity: 1;
+    }
+}
+
+/*TELAS GRANDES*/
+
+@media screen and (min-width: 1400px) {
+    #ap img {
+        margin: 10vw auto;
+        width: 60vw;
+    }
+}

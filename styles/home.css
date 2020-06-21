@@ -1,0 +1,118 @@
+/*ASPECTOS GERAIS*/
+
+html {
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+p,a,ul {
+    font-family: 'TruenoRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'TruenoRegular';
+    font-weight: bolder;
+}
+
+/*CABEÇALHO*/
+
+header { /*Cabeçalho*/
+    position: absolute;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+    grid-template-rows: 8.5vh;
+    width: 100vw;
+    height: 8.5vh;
+    background-color: #279e72;
+    box-shadow: 0px 0px 20px #546d6494;
+}
+header div { /*Div para ocupar espaço*/
+    display: none;
+}
+header #logo { /*Logo turistando*/
+    width: 22vh;
+    display: block;
+    transition: opacity 0.4s;
+    margin: auto 12px ;
+}
+header #logo:hover {
+    opacity: 0.5;
+}
+header #button-menu { /*Imagem do menu hamburguer*/
+    display: none;
+}
+header ul { /*Menu*/
+    list-style: none;
+    margin: auto;
+    color: white;
+    padding: 0;
+    margin-right: 20px;
+}
+header a {  /*Links do menu*/
+    color: white;
+}
+header li {
+    font-size: 10pt;
+    float: left; 
+    margin-right: 18px;
+    transition: all 0.7s;
+    padding: 8px;
+    border-radius: 30px;
+}
+header li:hover {
+    cursor: pointer;
+    color: #279e72;
+    background: white;
+}
+
+/*PAGINA DA APRESENTAÇÃO*/
+
+section#ap { /*Wallpaper de fundo do home*/
+    background-image: url(../imagens/background.png);
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 0px 0px 20px #546d64;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: hidden;
+}
+#titulo { /*Frase principal*/
+    font-size: calc(2em + 4vw);
+    color: white;
+    margin-top: 28vh;
+    margin-left: 12px;
+    text-shadow: 0px 0px 20px #546d64;
+}
+#ap img { /*Imagem do home*/
+    margin: 20px auto;
+    width: 50em;
+}
+
+/*BOTÃO QUE DIRECIONA PARA O TOPO*/
+
+#topo { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #279e72;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #279e728c;
+    z-index: 5;
+    transition: all 0.5s;
+}
+#topo:hover {
+    opacity: 0.7;
+}
+#topo a img {
+    display: flex;
+    width: 30px;
+}

@@ -1,0 +1,35 @@
+#explicando { /*Toda a section da explicação*/
+    width: 95vw;
+    height: 70vh;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.096);
+    background-color: #279e72;
+    margin: auto;
+    margin-top: 38px;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#explicando img { /*Imagem na explicação*/
+    width: 38vw;
+    margin: auto;
+    align-items: center;
+}
+#explicando div#divmaior { /*Toda a div*/
+    margin: auto;
+}
+#explicando div#divmenor { /*Div menor dentro da div maior*/
+    width: 32vw;
+    height: 100%;
+}
+#explicando div#divmenor h2 {
+    margin: 0;
+    text-align: left;
+    color: white;
+}
+#explicando div#divmenor p {
+    margin: 0;
+    text-align: justify;
+    color: #546d64;
+    line-height: 25px;
+    color: white;
+}

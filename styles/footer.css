@@ -1,0 +1,58 @@
+footer { /*Todo o footer*/
+    margin-top: 20px ;
+    width: 100vw;
+    height: 40vh;
+    background-color: #546d64;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.233);
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+footer img#logofooter{  /*Logo Turistando no footer*/
+    padding: 15px;
+    width: 30vh;
+    transition: all 0.5s;
+}
+img#logofooter:hover { /*ANIMAÇÃO*/
+    opacity: 0.5;
+}
+footer ul { /*Lista de icones*/
+    list-style: none;
+    margin-left: -18px;
+    top: 20vh;
+}
+footer ul li { /*Cada item da lista de icones*/
+    float: left;
+    margin-right: 12px;
+    color: white;
+    font-size: 2vh;
+}
+footer ul li span { /*Meu nome*/
+    color: #50de9f;
+    opacity: 1;
+    transition: 0.4s;
+}
+footer ul li span:hover { /*ANIMAÇÃO*/
+    opacity: 0.6;
+}
+footer ul li img { /*Cada imagem do icone*/
+    width: 4vh;
+    transition: all 0.3s;
+}
+footer ul li img:hover { /*ANIMAÇÃO*/
+    opacity: 0.5;
+    padding-top: 2px;
+}
+footer ul li#fromflaticon { /*Parte do from flaticon*/
+    margin-top: 4vh;
+    color: rgb(54, 54, 54);
+}
+footer ul li#fromflaticon a { /*www.flaticon.com*/
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    transition: all 0.3s;
+}
+footer ul li#fromflaticon a:hover {
+    color: #50de9f;
+}

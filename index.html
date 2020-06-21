@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turistando</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/trueno" type="text/css"/>
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/explicando.css">
+    <link rel="stylesheet" href="styles/regioes.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    
+    <!--PAGE-HOME-->
+
+    <div id="topo"> <!--Botão que direciona para o topo-->
+        <a href="#ap">
+        <img src="imagens/up-arrow.svg" alt="">
+        </a>
+    </div>
+
+    <header id='header'> <!--Cabeçalho-->
+
+        <img src="imagens/logo.png" alt="" id="logo">
+
+        <img src="imagens/open-menu.svg" alt="" id='button-menu' onclick='openMenu()'> <!--Menu hamburguer-->
+
+        <div></div> <!--Div para pegar espaço-->
+
+        <ul id='list-menu'> <!--Menu-->
+            
+            <a href="#explicando">
+                <li>Projeto</li>
+            </a>
+            <a href="#rmr">
+                <li>Região Metropolitana</li>
+            </a>
+            <a href="#mata">
+                <li>Zona da Mata</li>
+            </a>
+            <a href="#agreste">
+                <li>Agreste</li>
+            </a>
+            <a href="#sertao">
+                <li>Sertão</li>
+            </a>
+            <a href="#francisco">
+                <li>São Francisco</li>
+            </a>
+            
+        </ul>
+
+    </header>
+    
+    <section id='ap'> <!--Apresentação-->
+
+        <h1 id='titulo'>Pesquise, <br>
+        escolha, <br>
+        viaje!
+        </h1>
+
+        <img src="imagens/foto-home.svg" alt="">
+  
+    </section>
+
+    <!--EXPLICANDO O PROJETO-->
+
+    <section id='explicando'>
+
+        <img src="imagens/foto-explicacao.svg" alt="">
+
+        <div id='divmaior'>
+            <div id='divmenor'>
+                <h2>Olá, como vai?</h2>
+
+            <p>
+                Sabemos que vários setores do Brasil foram afetados pela pandemia da COVID-19, como o turismo. Partindo desse ponto e com a enorme vontade de amenizar consequências dessa situação, surge o Turistando: projeto que incentiva o turismo regional após a quarentena, trazendo a reflexão de como o Brasil é lindo e reunindo alguns lugares de cada região do país. Divirta-se, reflita e aproveite!
+            </p>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <!--PONTOS TURISTICOS-->
+
+    <section id='rmr'>
+        <h2>
+            Região Metropolitana do Recife
+        </h2>
+
+        <div class="linha">
+
+            <div class="quadrado"> <!--Cidade RMR 1-->
+                <h3>RMR - 1</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto("olinda")'>
+                    Saber mais
+                </p>
+
+                <p id='olinda' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Cidade RMR 2-->
+                <h3>RMR - 2</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto(ID DO PARAGRAFO)'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Cidade RMR 3-->
+                <h3>RMR - 3</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto()'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Cidade RMR 4-->
+                <h3>RMR - 4</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto()'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id='mata'>
+        <h2>
+            Zona da Mata
+        </h2>
+
+        <div class="linha">
+
+            <div class="quadrado"> <!--Cidade 1 - Mata-->
+                <h3>Mata - 1</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto("olinda")'>
+                    Saber mais
+                </p>
+
+                <p id='olinda' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Cidade 2 - Mata-->
+                <h3>Mata - 2</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto(ID DO PARAGRAFO)'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Cidade 3 - Mata-->
+                <h3>Mata - 3</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto()'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Cidade 4 - Mata-->
+                <h3>Mata - 4</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto()'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id='agreste'>
+        <h2>
+            Agreste
+        </h2>
+
+        <div class="linha">
+
+            <div class="quadrado"> <!--Cidade 1 - Agreste-->
+                <h3>Agreste - 1</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto("olinda")'>
+                    Saber mais
+                </p>
+
+                <p id='olinda' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Cidade 2 - Agreste-->
+                <h3>Agreste - 2</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto(ID DO PARAGRAFO)'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Cidade 3 - Agreste-->
+                <h3>Agreste - 3</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto()'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Cidade 4 - Agreste-->
+                <h3>Agreste - 4</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto()'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id='sertao'>
+        <h2>
+            Sertão
+        </h2>
+
+        <div class="linha">
+
+            <div class="quadrado"> <!--Sertão - 1-->
+                <h3>Sertão - 1</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto("olinda")'>
+                    Saber mais
+                </p>
+
+                <p id='olinda' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Sertão - 2-->
+                <h3>Sertão - 2</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto(ID DO PARAGRAFO)'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Sertão - 3-->
+                <h3>Sertão - 3</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto()'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Sertão - 4-->
+                <h3>Sertão - 4</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto()'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+
+        </div>
+        
+    </section>
+
+    <section id='francisco'>
+        <h2>
+            São Francisco
+        </h2>
+
+        <div class="linha">
+
+            <div class="quadrado"> <!--Francisco - 1-->
+                <h3>Francisco - 1</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto("olinda")'>
+                    Saber mais
+                </p>
+
+                <p id='olinda' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Francisco - 2-->
+                <h3>Francisco - 2</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto(ID DO PARAGRAFO)'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Francisco - 3-->
+                <h3>Francisco - 3</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto()'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+            <div class="quadrado"> <!--Francisco - 4-->
+                <h3>Francisco - 4</h3>
+
+                <img src="imagens/logofooter.png" alt="">
+
+                <p class='button-mais' onclick='openTexto()'>
+                    Saber mais
+                </p>
+
+                <p id='l' 
+                style=
+                'display: none;
+                transition: display 0.2s;
+                '>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!--RODA PÉ-->
+
+    <footer>
+
+        <img src="imagens/logofooter.png" alt="" id='logofooter'>
+
+        <ul>
+
+            <li> 
+                 <a href="https://github.com/felipinas" target="_blank">
+                    <img src="imagens/github-verde.svg" alt="">
+                </a> 
+            </li>
+
+            <li> 
+                <a href="https://www.linkedin.com/in/joaofelipess/" target="_blank">
+                    <img src="imagens/linkedin-verde.svg" alt="">
+                </a>  
+            </li> <br> <br>
+
+            <li>Feito por <span>João Felipe</span> </li> <br>
+
+            <li id='fromflaticon'>
+                Icons from 
+                <a href="https://www.flaticon.com/" title="Flaticon">
+                    www.flaticon.com
+                </a>
+            </li>
+
+        </ul> 
+
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
