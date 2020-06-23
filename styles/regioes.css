@@ -29,13 +29,24 @@ h2:hover {
     margin-right: 5px;
     margin-left: 5px;
 }
-.quadrado img { /*Foto do lugar*/
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.nextPhoto { /*Setinha para proxima foto*/
+    width: 26px;
+    margin: auto;
+    cursor: pointer;
+    transition: opacity 0.4s;
+}
+.nextPhoto:hover {
+    opacity: 0.5;
+}
+.quadrado img.fotoLugar { /*Foto do lugar*/
     display: block;
     width: 12em;
-    transition: width 0.3s;
-}
-.quadrado img:hover {
-    width: 15em;
+    transition: all 0.3s;
 }
 
 .quadrado p {
@@ -45,24 +56,23 @@ h2:hover {
     margin-right: 20px;
     margin-left: 20px;
 }
+.textoOpen {
+    display: block;
+}
 .linha { /*Linhas*/
     display: flex;
     justify-content: center;
 }
 
-.button-mais {
-    font-family: 'TruenoRegular';
+.button-mais { /*Botão saiba mais*/
     cursor: pointer;
     padding: 8px;
-    border: 1px solid green;
+    border: 1px solid var(--cor-principal);
     border-radius: 30px;
     margin: 20px auto;
+    transition: all 0.4s;
 }
 .button-mais:hover {
     color: white;
-    background-color: green;
-}
-
-.textoOpen {
-    display: block;
+    background-color: var(--cor-principal);
 }
