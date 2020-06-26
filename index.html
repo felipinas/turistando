@@ -12,13 +12,13 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/responsive.css">
 </head>
-<body onload = 'variaveisGaleria()'>
+<body>
     
     <!--PAGE-HOME-->
 
     <div id="topo"> <!--Botão que direciona para o topo-->
         <a href="#ap">
-        <img src="imagens/up-arrow.svg" alt="">
+        <img src="imagens/icons/up-arrow.svg" alt="">
         </a>
     </div>
 
@@ -26,7 +26,7 @@
 
         <img src="imagens/logo.png" alt="" id="logo">
 
-        <img src="imagens/open-menu.svg" alt="" id='button-menu' onclick='openMenu()'> <!--Menu hamburguer-->
+        <img src="imagens/icons/open-menu.svg" alt="" id='button-menu' onclick='openMenu()'> <!--Menu hamburguer-->
 
         <div></div> <!--Div para pegar espaço-->
 
@@ -91,20 +91,27 @@
 
                 <div class="galeria">
 
-                    <img src="imagens/next-toleft.svg" alt="" class='nextPhoto' onclick='anteFoto("FotoOlinda", "olinda")'> <!-- < -->
+                    <img src="imagens/icons/next-toleft.svg" alt="" class='nextPhoto' onclick='anteFoto("FotoOlinda", "olinda")'> <!-- < -->
 
                     <img src="imagens/olinda/1.png" alt="" class="fotoLugar" id="FotoOlinda">
 
-                    <img src="imagens/next-toright.svg" alt="" class="nextPhoto" onclick='proxFoto("FotoOlinda", "olinda")'> <!-- > -->
+                    <img src="imagens/icons/next-toright.svg" alt="" class="nextPhoto" onclick='proxFoto("FotoOlinda", "olinda")'> <!-- > -->
 
                     <!-- Cola para função - anteFoto ou proxFoto(Id da Foto, pasta das fotos)-->
 
 
                 </div>
 
-                <p class='button-mais' onclick='openTexto("olinda")'>  <!-- Cola para função - openTexto(Id do paragrafo abaixo)-->
-                    Saber mais
-                </p> 
+                <div id='place-and-more'> <!--Div com o icon do maps e saber mais-->
+
+                    <div> <!--icon map-->
+                    </div>
+
+                    <p class='button-mais' onclick='openTexto("olinda")'>  <!-- Cola para função - openTexto(Id do paragrafo abaixo)-->
+                        Saber mais
+                    </p> 
+
+                </div>
 
                 <p id='olinda' 
                 style=
@@ -114,8 +121,9 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
                 </p>
 
-
             </div>
+
+        </div>
         
     </section>
 
@@ -129,13 +137,13 @@
 
             <li> 
                  <a href="https://github.com/felipinas" target="_blank">
-                    <img src="imagens/github-verde.svg" alt="">
+                    <img src="imagens/icons/github-green.svg" alt="">
                 </a> 
             </li>
 
             <li> 
                 <a href="https://www.linkedin.com/in/joaofelipess/" target="_blank">
-                    <img src="imagens/linkedin-verde.svg" alt="">
+                    <img src="imagens/icons/linkedin-green.svg" alt="">
                 </a>  
             </li> <br> <br>
 

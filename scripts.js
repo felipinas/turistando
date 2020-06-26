@@ -42,7 +42,6 @@ function proxFoto(idFoto, pastaFoto) {
     if (fi > 3) {
         fi = min
     }
-    console.log(`${idFoto}`)
     document.getElementById(`${idFoto}`).src = `imagens/olinda/${fi}.png`
 }
 

@@ -8,6 +8,13 @@ h2 { /*Nome das regiões*/
 h2:hover {
     opacity: 0.5;
 }
+.linha { /*Linhas*/
+    display: flex;
+    justify-content: center;
+}
+
+/*Parte dos quadrados*/
+
 .quadrado { /*Quadrados dos lugares*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.150);
     width: 23vw;
@@ -30,7 +37,7 @@ h2:hover {
     margin-left: 5px;
 }
 
-.galeria {
+.galeria { /*Foto do lugar + setas para próxima foto*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -48,29 +55,55 @@ h2:hover {
     width: 12em;
     transition: all 0.3s;
 }
-
 .quadrado p {
     color: #546d64;
     font-size: 11pt;
     text-align: justify;
+    margin-top: 0;
     margin-right: 20px;
     margin-left: 20px;
 }
 .textoOpen {
     display: block;
 }
-.linha { /*Linhas*/
-    display: flex;
-    justify-content: center;
-}
 
-.button-mais { /*Botão saiba mais*/
+/*Div com o botao do lugar e do saiba mais*/
+
+#place-and-more {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+#place-and-more div {
+    width: 18px;
+    height: 18px;   
+    padding: 8px;
+    margin-right: 8px;
+
+    display: flex;
+
+    background: url('../imagens/icons/place-green.svg') no-repeat;
+    background-position: center;
+    background-size: 19px;
+
+    border-radius: 50%;
+    border: 1px solid var(--cor-principal);
+
+    transition: all 0.4s;
+}
+#place-and-more div:hover {
+    background: url('../imagens/icons/place-white.svg') no-repeat;
+    background-position: center;
+    background-size: 19px;
+    background-color: var(--cor-principal);
+}
+#place-and-more .button-mais { /*Botão saiba mais*/
     cursor: pointer;
     padding: 8px;
     border: 1px solid var(--cor-principal);
     border-radius: 30px;
-    margin: 20px auto;
     transition: all 0.4s;
+    margin: 0;
 }
 .button-mais:hover {
     color: white;
