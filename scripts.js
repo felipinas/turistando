@@ -10,10 +10,10 @@ function openMenu() {
 
     var menu = document.getElementById('button-menu').src //"imagens/open-menu.svg"
 
-    if (menu.indexOf("imagens/open-menu.svg") >= 0) {
-        document.getElementById('button-menu').src = 'imagens/multiply.svg'
+    if (menu.indexOf("imagens/icons/open-menu.svg") >= 0) {
+        document.getElementById('button-menu').src = 'imagens/icons/multiply.svg'
     } else {
-        document.getElementById('button-menu').src = 'imagens/open-menu.svg'
+        document.getElementById('button-menu').src = 'imagens/icons/open-menu.svg'
     }
 }
 
@@ -42,7 +42,7 @@ function proxFoto(idFoto, pastaFoto) {
     if (fi > 3) {
         fi = min
     }
-    document.getElementById(`${idFoto}`).src = `imagens/olinda/${fi}.png`
+    document.getElementById(`${idFoto}`).src = `imagens/${pastaFoto}/${fi}.png`
 }
 
 function anteFoto(idFoto, pastaFoto) {
@@ -50,5 +50,5 @@ function anteFoto(idFoto, pastaFoto) {
     if (fi < 1) {
         fi = max
     }
-    document.getElementById(`${idFoto}`).src = `imagens/olinda/${fi}.png`
+    document.getElementById(`${idFoto}`).src = `imagens/${pastaFoto}/${fi}.png`
 }
