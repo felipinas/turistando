@@ -30,8 +30,8 @@
         display: block;
     }
     header ul {
-        display: none;
         padding: 0;
+        margin: 10px;
     }
     header ul li {
         text-align: right;
@@ -166,12 +166,14 @@
         align-items: center;
     }
     #explicando div#divmaior {
-        margin-top: 12px;
-        margin-bottom: 12px ;
+        margin: 12px auto;
     }
     #explicando div#divmenor {
         width: 73vw;
         height: 100%;
+    }
+    #explicando div#divmenor h2 {
+        width: 100%;
     }
     #explicando div#divmenor h2:hover {
         opacity: 1;
