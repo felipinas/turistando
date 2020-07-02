@@ -4,7 +4,6 @@ function openMenu() {
     //Abrir o menu no mobile
 
     document.getElementById('header').classList.toggle('open-menu')
-    document.getElementById('list-menu').classList.toggle('list-menu-open')
 
     //Trocar a foto do menu pelo X
 
