@@ -12,6 +12,10 @@ h2:hover {
     display: flex;
     justify-content: center;
 }
+#rmr {
+    width: 80vw;
+    margin: auto;
+}
 
 /*Parte dos quadrados*/
 

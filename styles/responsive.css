@@ -1,84 +1,7 @@
-/*DUAS REGIÃO POR VEZ*/
 
-@media screen and (max-width: 1000px) {
-    header {
-        position: fixed;
-        box-sizing: border-box;
-        transition: height 0.4s;
-        grid-template-rows: 8.5vh;       
-        grid-template-columns: 50vw 50vw;
-    }
-    .open-menu { /*Classe para abrir o menu*/
-        height: auto;
-        grid-template-rows: 8.5vh auto;
-    }
-    header #logo {
-        margin-left: 10px;
-    }
-    header #logo:hover {
-        opacity: 1;
-    }
-    header #button-menu { /*Menu hamburguer*/
-        cursor: pointer;
-        display: block;
-        width: 4vw;
-        margin: auto;
-        margin-right: 10px;
-        transition: all 0.4s;
-    }
-    header div {
-        display: block;
-    }
-    header ul {
-        padding: 0;
-        margin: 10px;
-    }
-    header ul li {
-        text-align: right;
-        width: 40vw;
-        background-color: white;
-        color: #279e72;
-        margin: 4px auto;
-        border-radius: 30px;
-        transition: all 0.3s;
-    }
-    header ul li:hover {
-        padding: 12px;
-    }
+/*UMA REGIÃO POR VEZ - Mobile*/
 
-    /*HOME*/
-
-    section#ap { /*Toda section da apresentação*/
-        display: grid;
-        grid-template-columns: 1fr 1fr;   
-        overflow: hidden;  
-    }
-    #ap img { /*Imagem na apresentação*/
-        margin: 100px auto;
-        width: 70vw;
-    }
-
-    /*REGIÕES*/
-
-    .linha { /*Linha dos lugares*/
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        margin: auto;
-        
-    }
-    .quadrado { /*Cada quadrado dos lugares*/
-        width: 45vw;
-        height: auto;
-        margin: auto;
-        margin-top: 45px;
-        
-    }
-}
-
-/*UMA REGIÃO POR VEZ*/
-
-@media screen and (max-width: 800px) { 
+@media screen and (max-width: 1000px) { 
 
     /*HEADER*/
 
@@ -103,7 +26,7 @@
     header #button-menu { /*Menu hamburguer*/
         cursor: pointer;
         display: block;
-        width: 8vw;
+        width: 35px;
         margin: auto;
         margin-right: 10px;
     }
@@ -214,7 +137,6 @@
         opacity: 1;
     }
 }
-
 /*TELAS GRANDES*/
 
 @media screen and (min-width: 1400px) {
