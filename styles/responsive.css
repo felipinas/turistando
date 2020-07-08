@@ -26,7 +26,7 @@
     header #button-menu { /*Menu hamburguer*/
         cursor: pointer;
         display: block;
-        width: 35px;
+        width: 30px;
         margin: auto;
         margin-right: 10px;
     }
@@ -122,6 +122,37 @@
     section h2 { /*Nomes das regiões*/
         margin: auto;
         width: 80vw;
+    }
+
+    /*TRILHAS*/
+
+    #trilhas {
+        width: 80vw;
+    }
+    #content {
+        height: auto;
+    }
+
+    #line-one {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #line-one img {
+        width: 75vw;
+        margin-top: 25px;
+    }
+    #line-one p {
+        width: 90%;
+        text-align: justify;
+    }
+
+
+    #line-two {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #line-two div {
+        margin-bottom: 15px;
     }
 
     /*FOOTER*/
