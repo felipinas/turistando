@@ -65,6 +65,22 @@
     box-shadow: 0px 12px 10px #279e728f;
 }
 
+#line-two div img {
+    width: 50px;
+}
+
+#line-two .content-ret {
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+
 #line-two div p {
     color: white;
+    text-decoration: none;
+}
+
+#line-two a {
+    text-decoration: none;
 }
