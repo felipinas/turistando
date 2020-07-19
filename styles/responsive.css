@@ -1,11 +1,5 @@
-
 /*UMA REGIÃO POR VEZ - Mobile*/
 
-@media screen and (max-width: 500px) {
-    .text-small-mobile {
-        font-size: 11pt;
-    }
-}
 
 @media screen and (max-width: 1000px) { 
 
@@ -160,6 +154,19 @@
     }
     #line-two div {
         margin-bottom: 15px;
+    }
+
+    .text-small-mobile {
+        font-size: 10pt;
+    }
+
+    /*AVISOS*/
+
+    #avisos {
+
+        display: flex;
+        justify-content: center;
+        width: 80vw;
     }
 
     /*FOOTER*/

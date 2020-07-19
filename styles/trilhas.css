@@ -84,3 +84,27 @@
 #line-two a {
     text-decoration: none;
 }
+
+/*Avisos*/
+
+#avisos {
+    margin: 24px auto;
+
+    opacity: 0.3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#avisos img {
+    width: 60px;
+}
+
+#avisos ul {
+    margin: 0px;
+}
+
+#avisos li {
+    font-size: 9pt;
+}

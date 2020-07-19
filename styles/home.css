@@ -19,7 +19,7 @@ body {
     margin: 0;
     padding: 0;
 }
-p,a,ul, span {
+p,a,ul,span,li {
     font-family: 'Trueno';
     font-weight: normal;
     font-style: normal;
