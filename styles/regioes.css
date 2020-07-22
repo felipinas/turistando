@@ -67,6 +67,12 @@ h2:hover {
     margin-right: 20px;
     margin-left: 20px;
 }
+.quadrado p a {
+    color: var(--cor-principal);
+}
+.quadrado p a:hover {
+    opacity: 0.8;
+}
 .textoOpen {
     display: block;
 }

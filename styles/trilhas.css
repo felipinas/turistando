@@ -30,8 +30,24 @@
 
 #line-one p {
     width: 30vw;
+    
+    line-height: 22px;
     text-align: justify;
     margin: auto;
+}
+
+#line-one div {
+    margin: auto;
+}
+
+#par-trail {
+    color: #546d64;
+    width: 30vw;
+}
+
+#par-trail h3 {
+    font-size: 30pt;
+    margin: 0;
 }
 
 /*Linha dois (Dois botões)*/
@@ -77,7 +93,7 @@
 
 
 #line-two div p {
-    color: white;
+    color: white; 
     text-decoration: none;
 }
 

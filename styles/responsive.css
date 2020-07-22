@@ -143,8 +143,18 @@
         margin-top: 25px;
     }
     #line-one p {
-        width: 90%;
+        width: 100%;
         text-align: justify;
+        font-size: 85%;
+    }   
+
+    #line-one #par-trail {
+        width: 73vw;
+    }
+
+    #par-trail h3 {
+        font-size: 25pt;
+        margin: 0;
     }
 
 
@@ -154,6 +164,7 @@
     }
     #line-two div {
         margin-bottom: 15px;
+        width: 73vw
     }
 
     .text-small-mobile {

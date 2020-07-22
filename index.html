@@ -13,9 +13,15 @@
     <link rel="stylesheet" href="styles/trilhas.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/responsive.css">
+
+    
 </head>
 <body>
+
+    <!--JS-->
     
+    <script src="scripts.js"></script>
+
     <!--PAGE-HOME-->
 
     <header id='header'> <!--Cabeçalho-->
@@ -309,17 +315,17 @@
 
             </div>
 
-            <div class="quadrado"> <!--Igreja dos Santos Cosme e Damião-->
+            <div class="quadrado"> <!--Igarassu-->
 
                 <h3>Igreja dos Santos Cosme e Damião</h3>
 
                 <div class="galeria">
 
-                    <img src="imagens/icons/next-toleft.svg" alt="" class='nextPhoto' onclick='anteFoto("FotoCosme", "cosme")'> <!-- < -->
+                    <img src="imagens/icons/next-toleft.svg" alt="" class='nextPhoto' onclick='anteFoto("FotoIgarassu", "igarassu")'> <!-- < -->
 
-                    <img src="imagens/cosme/1.png" alt="" class="fotoLugar" id="FotoCosme">
+                    <img src="imagens/igarassu/1.png" alt="" class="fotoLugar" id="FotoCosme">
 
-                    <img src="imagens/icons/next-toright.svg" alt="" class="nextPhoto" onclick='proxFoto("FotoCosme", "cosme")'> <!-- > -->
+                    <img src="imagens/icons/next-toright.svg" alt="" class="nextPhoto" onclick='proxFoto("FotoCosme", "igarassu")'> <!-- > -->
 
                     <!-- Cola para função - anteFoto ou proxFoto(Id da Foto, pasta das fotos)-->
 
@@ -334,18 +340,18 @@
 
                     </a>
 
-                    <p class='button-mais' onclick='openTexto("cosme")'>  <!-- Cola para função - openTexto(Id do paragrafo abaixo)-->
+                    <p class='button-mais' onclick='openTexto("igarassu")'>  <!-- Cola para função - openTexto(Id do paragrafo abaixo)-->
                         Saber mais
                     </p> 
 
                 </div>
 
-                <p id='cosme' 
+                <p id='igarassu' 
                 style=
                 'display: none;
                 transition: all 0.4s;
                 '>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo illum maxime ducimus eius harum culpa quam odit! Exercitationem ratione inventore, dolore fugiat debitis nam explicabo. Exercitationem deleniti inventore animi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere sequi aliquam eligendi. Perspiciatis alias totam vel illo eos rem ipsa molestiae iste, excepturi quasi nulla debitis, esse, aut nobis corrupti.
+                    Tombado pelo Instituto do Patrimônio Histórico e Artístico Nacional, o Centro Histórico de Igarassu é um dos conjuntos arquitetônicos e religiosos mais antigos e mais bem preservados de todo o Estado de Pernambuco. O espaço possui museus e igrejas, além de um interessante casario. Contudo, o que mais chama atenção é a Igreja Matriz dos Santos Cosme e Damião, a igreja católica mais antiga do Brasil. Resumidamente, o lugar conta com o <a href="https://goo.gl/maps/mJhBpHzKkxQzGwCh9" target='_blank'>Museu Histórico de Igarassu</a>, <a href="https://goo.gl/maps/NnJX5ZrR9F7NHynx7" target='_blank'>Museu Pinacoteca de Igarassu</a>, <a href="https://goo.gl/maps/FRseKZyT5Rm6KssQ8" target='_blank'>Convento de Santo Antônio</a> e muito mais.
                 </p>
 
             </div>
@@ -639,9 +645,19 @@
 
                 <img src="imagens/navigation.svg" alt="">
 
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas rerum ea recusandae natus? Soluta, nesciunt eligendi! Sed consequuntur nesciunt ratione tempora, repellendus excepturi eaque, sit ea soluta aliquid hic nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et cum necessitatibus ad iusto illum, odit omnis saepe eos nisi repellendus possimus corrupti suscipit at quis aliquam facilis nesciunt doloremque similique.
-                </p>
+                <div>
+
+                    <div id='par-trail'>
+
+                        <h3>Quer ir além?</h3>
+
+                        <p>
+                            Mas e aí, o que achou de todos esses lugares tão especiais e que esperam por você? Agora imagine poder visitar algum local mostrado anteriormente, porém com um percurso mais organizado e pensado para você aproveitar o máximo. Pois é, <b>o Turistando surgiu não apenas com o objetivo de facilitar sua escolha de destino, mas para ajudar no seu percurso.</b> Por conta disso, criamos algumas trilhas com alguns dos lugares mais visitados da região. Então agora se prepara e vamos conhecer mais da nossa localidade.
+                        </p>
+
+                    </div>
+
+                </div>
 
             </div>
 
@@ -741,6 +757,5 @@
 
     </footer>
     
-    <script src="scripts.js"></script>
 </body>
 </html>
