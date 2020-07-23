@@ -105,8 +105,8 @@
 
 #avisos {
     margin: 24px auto;
-
-    opacity: 0.3;
+    width: 40vw;
+    opacity: 0.4;
 
     display: flex;
     justify-content: center;
@@ -119,8 +119,10 @@
 
 #avisos ul {
     margin: 0px;
+
+    list-style-position: center;
 }
 
 #avisos li {
-    font-size: 9pt;
+    font-size: 7pt;
 }
