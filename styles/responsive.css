@@ -1,5 +1,5 @@
-/*UMA REGIÃO POR VEZ - Mobile*/
 
+/*UMA REGIÃO POR VEZ - "Mobile"*/
 
 @media screen and (max-width: 1000px) { 
 
@@ -60,11 +60,11 @@
         display: grid;
         grid-template-columns: 1fr;       
     }
-    #ap img { /*Ilustração principal*/
+    section#ap img { /*Ilustração principal*/
         margin: auto;
         width: 100%;
     }
-    #titulo { /*Titulo geral e inicial*/
+    section#ap #titulo { /*Titulo geral e inicial*/
         margin-left: 10px;
     }
 
@@ -88,9 +88,11 @@
         justify-content: center;
         align-items: center;
     }
+
     #explicando div#divmaior {
         margin: 12px auto;
     }
+
     #explicando div#divmenor {
         width: 73vw;
         height: 100%;
@@ -167,17 +169,21 @@
         width: 73vw
     }
 
-    .text-small-mobile {
+    .text-small-mobile { /*Classe para diminuir apenas o título de Olinda*/
         font-size: 10pt;
     }
 
     /*AVISOS*/
 
     #avisos {
-
         display: flex;
         justify-content: center;
+
         width: 80vw;
+    }
+
+    #avisos li {
+        font-size: 7pt;
     }
 
     /*FOOTER*/
@@ -193,6 +199,7 @@
         opacity: 1;
     }
 }
+
 /*TELAS GRANDES*/
 
 @media screen and (min-width: 1400px) {

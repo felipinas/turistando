@@ -15,9 +15,12 @@
     margin: auto;
     align-items: center;   
 }
+
+
 #explicando div#divmaior { /*Toda a div*/
     margin: auto;   
 }
+
 #explicando div#divmenor { /*Div menor dentro da div maior*/
     width: 32vw;
     height: 100%;   

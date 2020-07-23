@@ -59,7 +59,7 @@ h2:hover {
     width: 12em;
     transition: all 0.3s;
 }
-.quadrado p {
+.quadrado p { /*Texto do lugar*/
     color: #546d64;
     font-size: 11pt;
     text-align: justify;
@@ -73,7 +73,7 @@ h2:hover {
 .quadrado p a:hover {
     opacity: 0.8;
 }
-.textoOpen {
+.textoOpen { /*Classe para o texto aparecer*/
     display: block;
 }
 
