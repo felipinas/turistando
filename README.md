@@ -4,8 +4,6 @@ Sabemos que vários setores do Brasil foram afetados pela pandemia da COVID-19, 
 
 Se liga que maneiro: além de ver lugares cheios de encanto, **você ajuda famílias que dependem do turismo local, antes afetadas pela pandemia.**
 
-**Projeto ainda em desenvolvimento!**
-
 # Futuros upgrades
 
 * Expandir para todo o Brasil, influenciando o turismo pelo país todo e ajudando famílias em cada estado.
@@ -16,3 +14,11 @@ Se liga que maneiro: além de ver lugares cheios de encanto, **você ajuda famí
 * CSS
 * JavaScript
 * Adobe Photoshop
+
+# No final de tudo, como ficou?
+
+![Turistando](https://github.com/felipinas/projeto-turistando/blob/master/imagens/Apresenta%C3%A7%C3%A3o.png)
+
+# Para acessá-lo:
+
+* [Site](https://felipinas.github.io/projeto-turistando/)
