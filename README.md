@@ -21,4 +21,4 @@ Se liga que maneiro: além de ver lugares cheios de encanto, **você ajuda famí
 
 # Para acessá-lo:
 
-* [Site](https://felipinas.github.io/projeto-turistando/)
+* [Site](https://felipinas.github.io/turistando/)
